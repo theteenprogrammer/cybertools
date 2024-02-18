@@ -1,4 +1,7 @@
 Python bruteforce attack on Wifi
 
-Make connection, try password
-Once connected, write password to text file or send as an email
+Method one - uses netsh
+Create xml for profile -> must include SSID and predicted pwd, can be generated at random
+Reference xml file in "netsh wlan add profile"
+netsh wlan connect ssid={ssid} name={ssid}
+repeat until valid
