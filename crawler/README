@@ -1,1 +1,6 @@
 Web crawler to create sitemap
+
+Feed in domain
+Strip "https://" and other "/"s
+Check for any links on site for domain
+Also check common links "robots.txt"
