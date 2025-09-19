@@ -1,0 +1,18 @@
+"""
+# Encrypt a message
+message = b"Hello, secure world!"
+encrypted_message = cipher.encrypt(message)
+
+# Decrypt the message
+decrypted_message = cipher.decrypt(encrypted_message)
+
+print("Encrypted:", encrypted_message)
+print("Decrypted:", decrypted_message.decode())
+
+"""
+
+# Build dictionary from the first 1000 entries of that list
+word_dictionary = {word: "Definition not available" for word in word_list[:1000]}
+
+# Accessing words safely
+#print(word_dictionary.get("abandon"))   # might be None if "abandon" not in first 1000
